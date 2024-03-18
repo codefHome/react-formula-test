@@ -77,7 +77,7 @@ const AccordioDetalComponent = () => {
 
   const open = Boolean(anchorEl);
   const id = open ? "simple-popover" : undefined;
-  console.log(temp)
+
   return (
     <>
       {fields.map((_, index) => {
